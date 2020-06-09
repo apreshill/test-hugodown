@@ -1,5 +1,5 @@
 ---
-title: 'Academic: the website builder for Hugo'
+title: 'This is a post with a future publish date'
 subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
 summary: Create a beautifully simple website in under 10 minutes.
 authors:
