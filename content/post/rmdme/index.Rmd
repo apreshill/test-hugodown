@@ -2,7 +2,7 @@
 output: hugodown::md_document
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "blah"
+title: "Rmd post with ggplot2"
 subtitle: ""
 summary: ""
 authors: []
@@ -41,18 +41,4 @@ oplot <- ggplot(Orange, aes(x = age,
 oplot
 ```
 
-## Highcharter
 
-```{r}
-htmltools::suppressDependencies("jquery")
-library(highcharter)
-hchart(Orange, "line", hcaes(x = age, y = circumference, group = Tree))
-```
-
-# DT
-
-```{r}
-htmltools::suppressDependencies("jquery")
-library(DT)
-datatable(Orange)
-```
