@@ -29,7 +29,7 @@ image:
 projects: []
 ---
 
-```{r echo=FALSE}
+```{r}
 library(ggplot2)
 oplot <- ggplot(Orange, aes(x = age, 
                    y = circumference, 
@@ -43,7 +43,7 @@ oplot
 
 ## Highcharter
 
-```{r echo=FALSE, warning=FALSE, message=FALSE}
+```{r}
 htmltools::suppressDependencies("jquery")
 library(highcharter)
 hchart(Orange, "line", hcaes(x = age, y = circumference, group = Tree))
@@ -51,7 +51,7 @@ hchart(Orange, "line", hcaes(x = age, y = circumference, group = Tree))
 
 # DT
 
-```{r echo=FALSE, warning=FALSE, message=FALSE}
+```{r}
 htmltools::suppressDependencies("jquery")
 library(DT)
 datatable(Orange)
