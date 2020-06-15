@@ -27,7 +27,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-rmd_hash: 6a6162034167e79f
+rmd_hash: 0c449ff6c6cdbad2
 html_dependencies:
 - <script src="htmlwidgets-1.5.1/htmlwidgets.js"></script>
 - <script src="jquery-1.12.4/jquery.min.js"></script>
@@ -92,14 +92,25 @@ Highcharter
 
 <div class="highlight">
 
-<!--html_preserve-->
-
-<div id="htmlwidget-5bb9668e55e99a4aba2d" class="highchart html-widget" style="width:100%;height:500px;">
-
-</div>
-
-<script type="application/json" data-for="htmlwidget-5bb9668e55e99a4aba2d">{"x":{"hc_opts":{"title":{"text":null},"yAxis":{"title":{"text":"circumference"},"type":"linear"},"credits":{"enabled":false},"exporting":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0,"showInLegend":true},"treemap":{"layoutAlgorithm":"squarified"},"scatter":{"marker":{"symbol":"circle"}}},"series":[{"name":"3","data":[{"Tree":"3","age":118,"circumference":30,"x":118,"y":30},{"Tree":"3","age":484,"circumference":51,"x":484,"y":51},{"Tree":"3","age":664,"circumference":75,"x":664,"y":75},{"Tree":"3","age":1004,"circumference":108,"x":1004,"y":108},{"Tree":"3","age":1231,"circumference":115,"x":1231,"y":115},{"Tree":"3","age":1372,"circumference":139,"x":1372,"y":139},{"Tree":"3","age":1582,"circumference":140,"x":1582,"y":140}],"type":"line"},{"name":"1","data":[{"Tree":"1","age":118,"circumference":30,"x":118,"y":30},{"Tree":"1","age":484,"circumference":58,"x":484,"y":58},{"Tree":"1","age":664,"circumference":87,"x":664,"y":87},{"Tree":"1","age":1004,"circumference":115,"x":1004,"y":115},{"Tree":"1","age":1231,"circumference":120,"x":1231,"y":120},{"Tree":"1","age":1372,"circumference":142,"x":1372,"y":142},{"Tree":"1","age":1582,"circumference":145,"x":1582,"y":145}],"type":"line"},{"name":"5","data":[{"Tree":"5","age":118,"circumference":30,"x":118,"y":30},{"Tree":"5","age":484,"circumference":49,"x":484,"y":49},{"Tree":"5","age":664,"circumference":81,"x":664,"y":81},{"Tree":"5","age":1004,"circumference":125,"x":1004,"y":125},{"Tree":"5","age":1231,"circumference":142,"x":1231,"y":142},{"Tree":"5","age":1372,"circumference":174,"x":1372,"y":174},{"Tree":"5","age":1582,"circumference":177,"x":1582,"y":177}],"type":"line"},{"name":"2","data":[{"Tree":"2","age":118,"circumference":33,"x":118,"y":33},{"Tree":"2","age":484,"circumference":69,"x":484,"y":69},{"Tree":"2","age":664,"circumference":111,"x":664,"y":111},{"Tree":"2","age":1004,"circumference":156,"x":1004,"y":156},{"Tree":"2","age":1231,"circumference":172,"x":1231,"y":172},{"Tree":"2","age":1372,"circumference":203,"x":1372,"y":203},{"Tree":"2","age":1582,"circumference":203,"x":1582,"y":203}],"type":"line"},{"name":"4","data":[{"Tree":"4","age":118,"circumference":32,"x":118,"y":32},{"Tree":"4","age":484,"circumference":62,"x":484,"y":62},{"Tree":"4","age":664,"circumference":112,"x":664,"y":112},{"Tree":"4","age":1004,"circumference":167,"x":1004,"y":167},{"Tree":"4","age":1231,"circumference":179,"x":1231,"y":179},{"Tree":"4","age":1372,"circumference":209,"x":1372,"y":209},{"Tree":"4","age":1582,"circumference":214,"x":1582,"y":214}],"type":"line"}],"xAxis":{"type":"linear","title":{"text":"age"},"categories":null}},"theme":{"chart":{"backgroundColor":"transparent"}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
-<!--/html_preserve-->
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='c'>#&gt; [[1]]</span>
+<span class='c'>#&gt; character(0)</span>
+<span class='c'>#&gt; attr(,"html_dependencies")</span>
+<span class='c'>#&gt; attr(,"html_dependencies")[[1]]</span>
+<span class='c'>#&gt; List of 10</span>
+<span class='c'>#&gt;  $ name      : chr "jquery"</span>
+<span class='c'>#&gt;  $ version   : chr "9999"</span>
+<span class='c'>#&gt;  $ src       :List of 1</span>
+<span class='c'>#&gt;   ..$ href: chr ""</span>
+<span class='c'>#&gt;  $ meta      : NULL</span>
+<span class='c'>#&gt;  $ script    : NULL</span>
+<span class='c'>#&gt;  $ stylesheet: NULL</span>
+<span class='c'>#&gt;  $ head      : NULL</span>
+<span class='c'>#&gt;  $ attachment: NULL</span>
+<span class='c'>#&gt;  $ package   : NULL</span>
+<span class='c'>#&gt;  $ all_files : logi TRUE</span>
+<span class='c'>#&gt;  - attr(*, "class")= chr "html_dependency"</span>
+<!--html_preserve--><div id="htmlwidget-3bf666ca2163e546bb32" style="width:100%;height:500px;" class="highchart html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3bf666ca2163e546bb32">{"x":{"hc_opts":{"title":{"text":null},"yAxis":{"title":{"text":"circumference"},"type":"linear"},"credits":{"enabled":false},"exporting":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0,"showInLegend":true},"treemap":{"layoutAlgorithm":"squarified"},"scatter":{"marker":{"symbol":"circle"}}},"series":[{"name":"3","data":[{"Tree":"3","age":118,"circumference":30,"x":118,"y":30},{"Tree":"3","age":484,"circumference":51,"x":484,"y":51},{"Tree":"3","age":664,"circumference":75,"x":664,"y":75},{"Tree":"3","age":1004,"circumference":108,"x":1004,"y":108},{"Tree":"3","age":1231,"circumference":115,"x":1231,"y":115},{"Tree":"3","age":1372,"circumference":139,"x":1372,"y":139},{"Tree":"3","age":1582,"circumference":140,"x":1582,"y":140}],"type":"line"},{"name":"1","data":[{"Tree":"1","age":118,"circumference":30,"x":118,"y":30},{"Tree":"1","age":484,"circumference":58,"x":484,"y":58},{"Tree":"1","age":664,"circumference":87,"x":664,"y":87},{"Tree":"1","age":1004,"circumference":115,"x":1004,"y":115},{"Tree":"1","age":1231,"circumference":120,"x":1231,"y":120},{"Tree":"1","age":1372,"circumference":142,"x":1372,"y":142},{"Tree":"1","age":1582,"circumference":145,"x":1582,"y":145}],"type":"line"},{"name":"5","data":[{"Tree":"5","age":118,"circumference":30,"x":118,"y":30},{"Tree":"5","age":484,"circumference":49,"x":484,"y":49},{"Tree":"5","age":664,"circumference":81,"x":664,"y":81},{"Tree":"5","age":1004,"circumference":125,"x":1004,"y":125},{"Tree":"5","age":1231,"circumference":142,"x":1231,"y":142},{"Tree":"5","age":1372,"circumference":174,"x":1372,"y":174},{"Tree":"5","age":1582,"circumference":177,"x":1582,"y":177}],"type":"line"},{"name":"2","data":[{"Tree":"2","age":118,"circumference":33,"x":118,"y":33},{"Tree":"2","age":484,"circumference":69,"x":484,"y":69},{"Tree":"2","age":664,"circumference":111,"x":664,"y":111},{"Tree":"2","age":1004,"circumference":156,"x":1004,"y":156},{"Tree":"2","age":1231,"circumference":172,"x":1231,"y":172},{"Tree":"2","age":1372,"circumference":203,"x":1372,"y":203},{"Tree":"2","age":1582,"circumference":203,"x":1582,"y":203}],"type":"line"},{"name":"4","data":[{"Tree":"4","age":118,"circumference":32,"x":118,"y":32},{"Tree":"4","age":484,"circumference":62,"x":484,"y":62},{"Tree":"4","age":664,"circumference":112,"x":664,"y":112},{"Tree":"4","age":1004,"circumference":167,"x":1004,"y":167},{"Tree":"4","age":1231,"circumference":179,"x":1231,"y":179},{"Tree":"4","age":1372,"circumference":209,"x":1372,"y":209},{"Tree":"4","age":1582,"circumference":214,"x":1582,"y":214}],"type":"line"}],"xAxis":{"type":"linear","title":{"text":"age"},"categories":null}},"theme":{"chart":{"backgroundColor":"transparent"}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script><!--/html_preserve--></code></pre>
 
 </div>
 
@@ -108,14 +119,25 @@ DT
 
 <div class="highlight">
 
-<!--html_preserve-->
-
-<div id="htmlwidget-f1886748d8f34d53eba7" class="datatables html-widget" style="width:100%;height:auto;">
-
-</div>
-
-<script type="application/json" data-for="htmlwidget-f1886748d8f34d53eba7">{"x":{"filter":"none","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35"],["1","1","1","1","1","1","1","2","2","2","2","2","2","2","3","3","3","3","3","3","3","4","4","4","4","4","4","4","5","5","5","5","5","5","5"],[118,484,664,1004,1231,1372,1582,118,484,664,1004,1231,1372,1582,118,484,664,1004,1231,1372,1582,118,484,664,1004,1231,1372,1582,118,484,664,1004,1231,1372,1582],[30,58,87,115,120,142,145,33,69,111,156,172,203,203,30,51,75,108,115,139,140,32,62,112,167,179,209,214,30,49,81,125,142,174,177]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Tree<\/th>\n      <th>age<\/th>\n      <th>circumference<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[2,3]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-<!--/html_preserve-->
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='c'>#&gt; [[1]]</span>
+<span class='c'>#&gt; character(0)</span>
+<span class='c'>#&gt; attr(,"html_dependencies")</span>
+<span class='c'>#&gt; attr(,"html_dependencies")[[1]]</span>
+<span class='c'>#&gt; List of 10</span>
+<span class='c'>#&gt;  $ name      : chr "jquery"</span>
+<span class='c'>#&gt;  $ version   : chr "9999"</span>
+<span class='c'>#&gt;  $ src       :List of 1</span>
+<span class='c'>#&gt;   ..$ href: chr ""</span>
+<span class='c'>#&gt;  $ meta      : NULL</span>
+<span class='c'>#&gt;  $ script    : NULL</span>
+<span class='c'>#&gt;  $ stylesheet: NULL</span>
+<span class='c'>#&gt;  $ head      : NULL</span>
+<span class='c'>#&gt;  $ attachment: NULL</span>
+<span class='c'>#&gt;  $ package   : NULL</span>
+<span class='c'>#&gt;  $ all_files : logi TRUE</span>
+<span class='c'>#&gt;  - attr(*, "class")= chr "html_dependency"</span>
+<!--html_preserve--><div id="htmlwidget-f746774ba5cf30b0fcf6" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-f746774ba5cf30b0fcf6">{"x":{"filter":"none","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35"],["1","1","1","1","1","1","1","2","2","2","2","2","2","2","3","3","3","3","3","3","3","4","4","4","4","4","4","4","5","5","5","5","5","5","5"],[118,484,664,1004,1231,1372,1582,118,484,664,1004,1231,1372,1582,118,484,664,1004,1231,1372,1582,118,484,664,1004,1231,1372,1582,118,484,664,1004,1231,1372,1582],[30,58,87,115,120,142,145,33,69,111,156,172,203,203,30,51,75,108,115,139,140,32,62,112,167,179,209,214,30,49,81,125,142,174,177]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Tree<\/th>\n      <th>age<\/th>\n      <th>circumference<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[2,3]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script><!--/html_preserve--></code></pre>
 
 </div>
 

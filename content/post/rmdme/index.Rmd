@@ -28,11 +28,6 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-```{r setup, include=FALSE}
-htmltools::suppressDependencies("jquery")
-```
-
-
 
 ```{r echo=FALSE}
 library(ggplot2)
@@ -49,6 +44,7 @@ oplot
 ## Highcharter
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
+htmltools::suppressDependencies("jquery")
 library(highcharter)
 hchart(Orange, "line", hcaes(x = age, y = circumference, group = Tree))
 ```
@@ -56,6 +52,7 @@ hchart(Orange, "line", hcaes(x = age, y = circumference, group = Tree))
 # DT
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
+htmltools::suppressDependencies("jquery")
 library(DT)
 datatable(Orange)
 ```
